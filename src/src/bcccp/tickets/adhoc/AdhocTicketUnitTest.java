@@ -11,7 +11,7 @@ import bcccp.tickets.adhoc.AdhocTicket;
  */
 public class AdhocTicketUnitTest {
     public static void main(String[] args){
-        AdhocTicket adTic = new AdhocTicket("jeevan",123,"abcd1234");
+        AdhocTicket adTic = new AdhocTicket("ayush",123,"xyz1234");
         
         System.out.println(adTic.getBarcode());
         System.out.println(adTic.getCarparkId());
