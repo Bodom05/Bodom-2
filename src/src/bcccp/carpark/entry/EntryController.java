@@ -12,6 +12,10 @@ public class EntryController
 		implements ICarSensorResponder,
 				   ICarparkObserver,
 		           IEntryController {
+
+    public EntryController() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 	
 	private enum STATE { IDLE, WAITING, FULL, VALIDATED, ISSUED, TAKEN, ENTERING, ENTERED, BLOCKED } 
 	
