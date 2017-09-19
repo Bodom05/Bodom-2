@@ -12,8 +12,13 @@ import bcccp.carpark.Carpark;
  */
 public class CarparkUnitTest {
     public static void main(String[] args){
-        Carpark cp = new Carpark();
-        cp.carparkId = "123";
-        System.out.println(cp.carparkId);
+        System.out.println("Creating an instance of Carpark class...");
+        Carpark cp= new Carpark("Sunil",1000,null,null);
+        System.out.println("An instance of Carpark class is created...");
+        System.out.println("Testing the getName() method of carpark class");
+        System.out.println(cp.getName());
+        System.out.println("Tested successfully");
+        
     }
 }
+
