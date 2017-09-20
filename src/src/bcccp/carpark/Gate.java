@@ -13,6 +13,7 @@ import java.awt.Color;
 @SuppressWarnings("serial")
 public class Gate extends JFrame implements IGate {
 //fdfdfdfdfdffd
+//kkkkkk
 	private JPanel contentPane;
 	private JTextField gateStatusTextField;
 	private boolean raised;
