@@ -27,15 +27,15 @@ import bcccp.tickets.season.UsageRecordFactory;
 public class PaystationControllerIntegrationTesting {
     public static void main(String[] args){
         IAdhocTicketFactory adhocTicketFactory = new AdhocTicketFactory();
-//        IAdhocTicketDAO adhocTicketDAO = new AdhocTicketDAO(adhocTicketFactory);
-//        IUsageRecordFactory factory = new UsageRecordFactory();
-//        SeasonTicketDAO seasonTicketDAO = new SeasonTicketDAO(factory);
-//        Carpark carpark = new Carpark("name",0,adhocTicketDAO,seasonTicketDAO);
-//        IPaystationUI ui = new PaystationUI(20,40);
-//        PaystationController psc = new PaystationController(carpark,ui);
-//        psc.log("log method test");
-//        psc.setState(psc.teststate);
-//        psc.ticketInserted("Abc123");
-//        System.out.println("Barcode printed");
+        IAdhocTicketDAO adhocTicketDAO = new AdhocTicketDAO(adhocTicketFactory);
+        IUsageRecordFactory factory = new UsageRecordFactory();
+        SeasonTicketDAO seasonTicketDAO = new SeasonTicketDAO(factory);
+        Carpark carpark = new Carpark("name",0,adhocTicketDAO,seasonTicketDAO);
+        IPaystationUI ui = new PaystationUI(20,40);
+        PaystationController psc = new PaystationController(carpark,ui);
+        psc.log("log method test");
+        psc.setState(psc.teststate);
+        psc.ticketInserted("Abc123");
+        System.out.println("Barcode printed");
     }
 }
