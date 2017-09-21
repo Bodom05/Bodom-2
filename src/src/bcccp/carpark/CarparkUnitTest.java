@@ -12,8 +12,8 @@ import bcccp.carpark.Carpark;
  */
 public class CarparkUnitTest {
     public static void main(String[] args){
-        Carpark cp = new Carpark();
-        cp.carparkId = "123";
-        System.out.println(cp.carparkId);
+       // Carpark cp = new Carpark();
+        //cp.carparkId = "123";
+        //System.out.println(cp.carparkId);
     }
 }

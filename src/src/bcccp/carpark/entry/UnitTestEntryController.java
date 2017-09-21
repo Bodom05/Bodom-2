@@ -14,7 +14,7 @@ public class UnitTestEntryController {
     public static void main(String[] args){
         EntryController entry = new EntryController();
         entry.carEventDetected("123", true);
-        System.out.println(entry.getBarcode());
-        System.out.println(entry.getCarparkId());
+        //System.out.println(entry.getBarcode());
+        //System.out.println(entry.getCarparkId());
     }
 }

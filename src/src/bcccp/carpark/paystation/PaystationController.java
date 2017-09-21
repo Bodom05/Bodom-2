@@ -5,6 +5,8 @@ import bcccp.tickets.adhoc.IAdhocTicket;
 
 public class PaystationController 
 		implements IPaystationController {
+
+    public STATE teststate;
 	
 	private enum STATE { IDLE, WAITING, REJECTED, PAID } 
 	
@@ -30,13 +32,13 @@ public class PaystationController
 
 	
 	
-	private void log(String message) {
+	public void log(String message) {
 		System.out.println("EntryController : " + message);
 	}
 
 	
 	
-	private void setState(STATE newState) {
+	public void setState(STATE newState) {
 		switch (newState) {
 		
 		case IDLE: 
