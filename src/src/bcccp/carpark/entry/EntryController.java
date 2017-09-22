@@ -6,6 +6,7 @@ import bcccp.carpark.ICarSensorResponder;
 import bcccp.carpark.ICarpark;
 import bcccp.carpark.ICarparkObserver;
 import bcccp.carpark.entry.IEntryController;
+import bcccp.carpark.entry.IEntryUI;
 import bcccp.carpark.IGate;
 import bcccp.tickets.adhoc.IAdhocTicket;
 
@@ -14,10 +15,11 @@ public class EntryController
 				   ICarparkObserver,
 		           IEntryController {
 
-    public EntryController() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    EntryController() {
+        System.out.println("Welcome to the entry");
     }
-	
+
+    
 	private enum STATE { IDLE, WAITING, FULL, VALIDATED, ISSUED, TAKEN, ENTERING, ENTERED, BLOCKED } 
 	
 	private STATE state_;
