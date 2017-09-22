@@ -10,6 +10,8 @@ import bcccp.tickets.adhoc.IAdhocTicket;
 public class ExitController 
 		implements ICarSensorResponder,
 		           IExitController {
+    public STATE teststate;
+    //public STATE teststate;
 	
 	private enum STATE { IDLE, WAITING, PROCESSED, REJECTED, TAKEN, EXITING, EXITED, BLOCKED } 
 	
@@ -240,7 +242,7 @@ public class ExitController
 
 	
 	
-	private boolean isAdhocTicket(String barcode) {
+	public boolean isAdhocTicket(String barcode) {
 		return barcode.substring(0,1).equals("A");
 	}
 	
