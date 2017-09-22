@@ -1,4 +1,4 @@
-package bcccp.carpark;
+package src.bcccp.carpark;
 
 public interface IGate {
 	public void raise();
