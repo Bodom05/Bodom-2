@@ -7,7 +7,7 @@ import bcccp.carpark.ICarpark;
 import bcccp.carpark.ICarparkObserver;
 import bcccp.carpark.entry.IEntryController;
 import bcccp.carpark.entry.IEntryUI;
-import bcccp.carpark.IGate;
+import src.bcccp.carpark.IGate;
 import bcccp.tickets.adhoc.IAdhocTicket;
 
 public class EntryController 
