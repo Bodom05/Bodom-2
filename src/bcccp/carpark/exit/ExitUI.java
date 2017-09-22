@@ -22,9 +22,9 @@ import javax.swing.UIManager;
 public class ExitUI extends JFrame implements IExitUI {
 
 	private JPanel contentPane;
-	private JTextField displayTextField;
-	private JTextField ticketReaderTextField;
-	private IExitController controller;
+	public JTextField displayTextField;
+	public JTextField ticketReaderTextField;
+	public IExitController controller;
 
 	
 	
