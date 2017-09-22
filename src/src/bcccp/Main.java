@@ -4,9 +4,9 @@ import java.awt.EventQueue;
 
 import bcccp.carpark.CarSensor;
 import bcccp.carpark.Carpark;
-import bcccp.carpark.Gate;
+import src.bcccp.carpark.Gate;
 import src.bcccp.carpark.entry.EntryController;
-import bcccp.carpark.entry.EntryUI;
+import src.bcccp.carpark.entry.EntryUI;
 import bcccp.carpark.exit.ExitController;
 import bcccp.carpark.exit.ExitUI;
 import bcccp.carpark.paystation.PaystationController;
