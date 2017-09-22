@@ -1,4 +1,4 @@
-package bcccp.carpark;
+package src.bcccp.carpark;
 
 import java.awt.EventQueue;
 
@@ -9,6 +9,7 @@ import javax.swing.JTextField;
 import java.awt.Font;
 import javax.swing.SwingConstants;
 import java.awt.Color;
+import src.bcccp.carpark.IGate;
 
 @SuppressWarnings("serial")
 public class Gate extends JFrame implements IGate {
