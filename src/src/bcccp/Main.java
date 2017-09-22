@@ -1,11 +1,11 @@
-package bcccp;
+package src.bcccp;
 
 import java.awt.EventQueue;
 
 import bcccp.carpark.CarSensor;
 import bcccp.carpark.Carpark;
 import bcccp.carpark.Gate;
-import bcccp.carpark.entry.EntryController;
+import src.bcccp.carpark.entry.EntryController;
 import bcccp.carpark.entry.EntryUI;
 import bcccp.carpark.exit.ExitController;
 import bcccp.carpark.exit.ExitUI;
