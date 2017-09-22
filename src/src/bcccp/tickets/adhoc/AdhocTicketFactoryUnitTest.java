@@ -11,9 +11,9 @@ package src.bcccp.tickets.adhoc;
  */
 public class AdhocTicketFactoryUnitTest {
     public static void main(String args[]){
-    AdhocTicketFactory adTicFac = new AdhocTicketFactory("1234",200);
+    //AdhocTicketFactory adTicFac = new AdhocTicketFactory("1234",200);
         
-        System.out.println(adTicFac.getBarcode());
-        System.out.println(adTicFac.getCarparkId());
+      //  System.out.println(adTicFac.getBarcode());
+        //System.out.println(adTicFac.getCarparkId());
     }
 }

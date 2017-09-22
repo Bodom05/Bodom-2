@@ -125,6 +125,7 @@ public class ExitUI extends JFrame implements IExitUI {
 	
 	@Override
 	public void display(String message) {
+                System.out.println("this is test" + message);
 		displayTextField.setText(message);	
 	}
 
@@ -152,7 +153,7 @@ public class ExitUI extends JFrame implements IExitUI {
 	
 	
 	@SuppressWarnings("unused")
-	private void log(String message) {
+	public void log(String message) {
 		System.out.println("EntryUI : " + message);
 	}
 
